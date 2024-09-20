@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Directory from '../../components/directory/directory.component';
 
 const Home = () => {
-  const categories = [
+  const categories = [                //these are categories for the home page
     {
       id: 1,
       title: 'hats',
